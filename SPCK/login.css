@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+.header-menu{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: azure;
+    font-weight: 900;
+    font-size: larger;
+}
+
+input{
+    width: 348px;
+}
+
+.header-menu2{
+    width: 250px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer {
+    background-color: black ;
+}
+
+.footer-item h4 {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: azure;
+}
+
+.wrapper-footer {
+    width: 90%;
+    margin: 0 auto ;
+    padding: 30px;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.footer-content a{
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: azure;
+}

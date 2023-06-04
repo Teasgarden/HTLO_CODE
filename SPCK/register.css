@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+}
+
+.header-menu{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: azure;
+    font-weight: 900;
+    font-size: larger;
+}
+
+input{
+    width: 440px;
+}
+
+.header-menu2{
+    width: 250px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.register-form{
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.register-form h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.register-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.register-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: none;
+    outline: auto;
+}
+
+.register-form button{
+    color: white; 
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.footer {
+    background-color: black ;
+}
+
+.footer-item h4 {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: azure;
+}
+
+.wrapper-footer {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content a{
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: azure;
+}
