@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="mtheme.css">
 </head>
+
 <body>
     <header>
         <nav class="header-menu">
@@ -14,7 +16,10 @@
                 <a href="mtheme.html" class="menu-item">Home</a>
                 <a href="#" class="menu-item">About us</a>
             </nav>
-            <input type="search">
+            <div class="searchInput">
+                <input type="text" id="searchInput">
+                <button onclick="search()">Search</button>
+            </div>
             <nav class="header-login">
                 <a href="login.html">Login</a>
                 /
@@ -25,11 +30,62 @@
 
     <section class="banner">
         <div class="banner-slider">
-            <img src="https://1401700980.rsc.cdn77.org/data/images/full/96749/best-work-background-music-on-youtube-increase-your-productivity-with-vaporwave-chillstep-lofi.png" alt="">
+            <img src="https://1401700980.rsc.cdn77.org/data/images/full/96749/best-work-background-music-on-youtube-increase-your-productivity-with-vaporwave-chillstep-lofi.png"
+                alt="">
         </div>
     </section>
 
     <div class="container">
+        <!-- <div id="Search">
+            <input type="text" id="searchInput">
+            <button onclick="search()">Search</button>
+        </div> -->
+
+        <div id="albumList" class="flex-item">
+            <div id="albumImg">
+
+            </div>
+
+            <div id="albumName">
+                <h3>
+
+                </h3>
+            </div>
+       </div>
+
+       <div id="Artist" class="flex-item">
+            <div id="artistImg">
+
+            </div>
+
+            <div id="artistName">
+                <h3>
+
+                </h3>
+            </div>
+       </div>
+
+       <div id="trackList" class="flex-item">
+            <div id="trackImg">
+
+            </div>
+
+            <div id="trackName">
+                <h3>
+
+                </h3>
+            </div>
+       </div>
+
+       <div id="Postcast" class="flex-item">
+            <div id="postImg">
+
+            </div>
+
+            <div id="postName">
+
+            </div>
+       </div>
     </div>
 
 
@@ -42,8 +98,8 @@
                     <a href="#">For Creators</a>
                     <a href="#">Legal</a>
                     <a href="#">Copyright</a>
-    
-                </div>    
+
+                </div>
             </div>
 
             <div class="footer-item">
@@ -53,7 +109,7 @@
                     <a href="#">Youtube</a>
                     <a href="#">Blog</a>
                     <a href="#">Intagram</a>
-                </div>   
+                </div>
             </div>
         </div>
     </footer>

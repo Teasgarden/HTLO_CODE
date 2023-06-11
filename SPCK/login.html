@@ -13,7 +13,7 @@
     <header>
         <nav class="header-menu">
             <nav class="header-menu2">
-                <a href="#" class="menu-item">Home</a>
+                <a href="mtheme.html" class="menu-item">Home</a>
                 <a href="#" class="menu-item">About us</a>
             </nav>
             <input type="search">
@@ -25,19 +25,17 @@
         </nav>
     </header>
 
-    <main>
-        <form id="loginForm">
-            <div class="mb-3">
-                <label>Username</label>
-                <input type="text" class="form-control" id="username">
-            </div>
-            <div class="mb-3">
-                <label>Password</label>
-                <input type="password" class="form-control" id="password">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </main>
+    <div class="form">
+        <div class="login-form">
+            <h1>Login form</h1>
+            <form action="#" method="post">
+                <p>Username</p>
+                <input type="text" name="username" placeholder="Username or email">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

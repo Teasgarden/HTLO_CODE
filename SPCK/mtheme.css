@@ -40,6 +40,127 @@ input{
     height: 440px;
 }
 
+.container{
+    border: 5px solid red;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+
+/* #albumList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+/* #albumImg{
+    border: 1px solid rgb(255, 0, 200);
+    height: 15%;
+    width: 70%;
+    display: flex;
+}
+
+#albumName{
+    border: 1px solid rgb(145, 33, 33);
+    height: 15%;
+    width: 70%;
+    text-align: center;
+}
+
+#albumName h3{
+    text-align: center;
+}
+
+#trackList{
+    display: flex;
+    justify-content: center;
+}
+
+#trackImg{
+    border: 1px solid blue;
+    height: 15%;
+    width: 25%;
+}
+
+#trackName{
+    border: 1px solid green;
+    height: 15%;
+    width: 25%;
+    text-align: center;
+}
+
+#trackName h3{
+    text-align: center;
+}
+
+#Postcast{
+    display: flex;
+    justify-content: center;
+}
+
+#postImg{
+    border: 1px solid red;
+    height: 15%;
+    width: 70%;
+}
+
+#postName{
+    border: 1px solid crimson;
+    height: 15%;
+    width: 70%;
+}
+
+#postName h3{
+    text-align: center;
+}
+
+#Artist{
+    display: flex;
+    justify-content: center;
+}
+
+#artistImg{
+    border: 1px solid yellow;
+    height: 15%;
+    width: 70%;
+}
+
+#artistName{
+    border: 1px solid blue;
+    height: 15%;
+    width: 70%;
+}
+
+
+#artistName h3{
+    text-align: center;
+} */
+
+/* input{
+    width: 100%;
+} */
+
+/* #songList button{
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
 .footer {
     background-color: black ;
 }
