@@ -56,6 +56,14 @@ input{
     background-color: red;
 }
 
+.flex-extra {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
 /* #albumList{
     display: flex;
     justify-content: space-around;

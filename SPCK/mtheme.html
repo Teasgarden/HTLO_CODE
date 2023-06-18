@@ -16,10 +16,10 @@
                 <a href="mtheme.html" class="menu-item">Home</a>
                 <a href="#" class="menu-item">About us</a>
             </nav>
-            <div class="searchInput">
+            <!-- <div class="searchInput">
                 <input type="text" id="searchInput">
                 <button onclick="search()">Search</button>
-            </div>
+            </div> -->
             <nav class="header-login">
                 <a href="login.html">Login</a>
                 /
@@ -41,51 +41,18 @@
             <button onclick="search()">Search</button>
         </div> -->
 
-        <div id="albumList" class="flex-item">
-            <div id="albumImg">
+        <div class="flex-extra">
+            <input type="text" id="searchInput">
+            <select class="selecTion" id="Selection">
+                <option value="artists">Artist</option>
+                <option value="tracks">Tracks</option>
+                <option value="playlists">Playlists</option>
+                <option value="postcasts">Postcast</option>
+            </select>
+            <button onclick="search()">Search</button>
+        </div>
 
-            </div>
-
-            <div id="albumName">
-                <h3>
-
-                </h3>
-            </div>
-       </div>
-
-       <div id="Artist" class="flex-item">
-            <div id="artistImg">
-
-            </div>
-
-            <div id="artistName">
-                <h3>
-
-                </h3>
-            </div>
-       </div>
-
-       <div id="trackList" class="flex-item">
-            <div id="trackImg">
-
-            </div>
-
-            <div id="trackName">
-                <h3>
-
-                </h3>
-            </div>
-       </div>
-
-       <div id="Postcast" class="flex-item">
-            <div id="postImg">
-
-            </div>
-
-            <div id="postName">
-
-            </div>
-       </div>
+        <div id="content"></div>
     </div>
 
 
@@ -113,4 +80,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="mtheme.js"></script>
 </body>
+
+</html>
