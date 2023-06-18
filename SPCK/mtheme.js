@@ -7,13 +7,8 @@ function displaySongName(artist) {
 
 
 //displayArtist("Glass Animals", "artistImg");
-function displayArtist(artistName, artistImg) {
-    document.getElementById("Artist").innerHTML = "";
-    let img = document.createElement("artistImg");
-    img.setAttribute("src", artistImg);
-
-    let h3Text = document.createElement("h3");
-    h3Text.innerText = artistName;
+function displayArtist(data) {
+    let img = 
 }
 
 //displayTrackist("trackname" ,"trackImg");
